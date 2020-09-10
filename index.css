@@ -1,0 +1,21 @@
+html, body {
+    font-family: "American Typewriter", serif;
+}
+
+.MainText {
+    margin: 15px 0;
+}
+
+.SocialLink {
+    text-underline: none;
+
+    margin: 10px 10px 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.SocialLink > img {
+    width: 25px;
+    margin-right: 7px;
+}
