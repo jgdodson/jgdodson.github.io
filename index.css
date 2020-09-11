@@ -1,5 +1,14 @@
 html, body {
-    font-family: "American Typewriter", serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+#IntroText {
+    font-size: x-large;
+}
+
+#IntroText > #FullName {
+    font-weight: bold;
 }
 
 .MainText {
@@ -18,4 +27,40 @@ html, body {
 .SocialLink > img {
     width: 25px;
     margin-right: 7px;
+}
+
+.PageLinkList {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.PageLink {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: x-large;
+
+    border-radius: 15px;
+
+    width: 45%;
+
+    height: 75px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ResumeLink {
+    background-image: url("images/laptops_on_desk.jpg");
+}
+
+#PortfolioLink {
+    background-image: url("images/binary_heart.jpg");
 }
