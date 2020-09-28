@@ -3,12 +3,28 @@ html, body {
     font-size: 16px;
 }
 
+body {
+    width: 90%;
+    margin: auto;
+}
+
+#Intro {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 0;
+}
+
 #IntroText {
-    font-size: x-large;
+    text-align: center;
+    font-size: xx-large;
 }
 
 #IntroText > #FullName {
-    font-weight: bold;
+
 }
 
 .MainText {
@@ -20,6 +36,13 @@ html, body {
     flex-wrap: wrap;
 
     justify-content: space-around;
+}
+
+#ProfilePhoto {
+    width: 350px;
+    border-radius: 50px;
+
+    margin-bottom: 25px;
 }
 
 .SocialLink {
@@ -52,7 +75,7 @@ html, body {
     align-items: center;
 
     font-size: large;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .SocialLinkText {
@@ -93,4 +116,14 @@ html, body {
 
 #PortfolioLink {
     background-image: url("images/binary_heart.jpg");
+}
+
+
+/* Large screens */
+@media (min-width: 1200px) {
+
+    body {
+        width: 70%;
+    }
+
 }
