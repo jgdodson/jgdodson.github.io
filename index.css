@@ -15,18 +15,48 @@ html, body {
     margin: 15px 0;
 }
 
+.SocialLinkList {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
 .SocialLink {
     text-underline: none;
 
-    margin: 10px 10px 0;
+    margin: 10px 0;
+    padding: 15px;
 
-    display: flex;
-    align-items: center;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 40%;
 }
 
-.SocialLink > img {
-    width: 25px;
+.SocialLink a {
+    text-decoration: none;
+    color: black;
+}
+
+.SocialLink a:hover {
+    text-decoration: underline;
+}
+
+.SocialLinkHeader > img {
+    width: 35px;
     margin-right: 7px;
+}
+
+.SocialLinkHeader {
+    display: flex;
+    align-items: center;
+
+    font-size: large;
+    padding-bottom: 5px;
+}
+
+.SocialLinkText {
+
 }
 
 .PageLinkList {
