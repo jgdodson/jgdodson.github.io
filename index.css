@@ -20,11 +20,7 @@ body {
 
 #IntroText {
     text-align: center;
-    font-size: xx-large;
-}
-
-#IntroText > #FullName {
-
+    font-size: 3.5rem;
 }
 
 .MainText {
@@ -35,14 +31,12 @@ body {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-
     justify-content: space-around;
 }
 
 #ProfilePhoto {
-    width: 350px;
+    width: 60%;
     border-radius: 50px;
-
     margin-bottom: 25px;
 }
 
@@ -74,12 +68,8 @@ body {
     display: flex;
     align-items: center;
 
-    font-size: large;
+    font-size: 2.5rem;
     padding-bottom: 10px;
-}
-
-.SocialLinkText {
-
 }
 
 footer {
@@ -93,6 +83,14 @@ footer {
         width: 70%;
     }
 
+    #ProfilePhoto {
+        width: 30%;
+    }
+
+    #IntroText {
+        font-size: 2.5rem;
+    }
+
     .SocialLinkList {
         flex-wrap: wrap;
         flex-direction: row;
@@ -102,4 +100,7 @@ footer {
         width: 40%;
     }
 
+    .SocialLinkHeader {
+        font-size: 1.5rem;
+    }
 }
