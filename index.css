@@ -1,6 +1,6 @@
 html, body {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 body {
@@ -40,7 +40,18 @@ body {
     margin-bottom: 25px;
 }
 
+a.SocialLink {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a.SocialLink:hover {
+    box-shadow: black 1px 2px;
+}
+
 .SocialLink {
+
     text-underline: none;
 
     margin: 10px 0;
@@ -48,15 +59,6 @@ body {
 
     border: solid black 2px;
     border-radius: 5px;
-}
-
-.SocialLink a {
-    text-decoration: none;
-    color: black;
-}
-
-.SocialLink a:hover {
-    text-decoration: underline;
 }
 
 .SocialLinkHeader > img {
